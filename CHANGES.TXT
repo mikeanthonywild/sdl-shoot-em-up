@@ -1,0 +1,97 @@
+0.18 (Mike):
+-Hassan's curve enemy animation
+-Bug fixes
+-Music
+
+0.17-MERGED (Mike):
+-Endgame screen
+-Merged Umar's sound effects code
+-Explosion animations
+-Added Hassan's sound effects
+-create_player() function
+-Fixed animation speeds
+
+0.16 (Mike):
+-Invuln mode after player is killed
+-Various bug fixes
+-Overlay text
+-Enemies now give player points when killed
+-Game only ends when both players are killed
+-Ships are different colours depending on player
+
+0.15 (Mike):
+-Player ship animation
+-New sprites
+-Fourth enemy type
+-Animate fast enemy
+
+0.14-MERGED (Mike):
+-Merged Hassan and Katerina's enemies and collision code
+-spawn_enemy() function now spawns progressively harder and faster enemies
+
+0.13 (Hassan & Katerina):
+-Same as 0.11, but this time ships should not collide hopefully
+-Added a simple SDL demo with animated sprites
+
+0.12 (Mike):
+-Fixed different enemy ships colliding
+-is_enemy flag inside entity struct
+
+0.11 (Hassan & Katerina):
+-Added two extra enemies
+-enemies move at different speeds
+-added collision source file
+
+0.10-MERGED (Mike):
+-Simple projectiles (no collision)
+-Retro TTF font
+-Simple function to spawn enemies randomly
+-Basic collision detection is in place (needs improvement)
+-Entities lose health when hit
+-Game ends when player dies
+
+0.9 (Mike):
+-Lock frame rate to 120 FPS
+-Can control both players (F1 and F2 to toggle each player)
+-Stop player moving off screen
+-Improved performance dramatically by optimising image loading
+
+0.8-MERGED (Mike):
+-Merged SDL rendering and input into main code base (Hassan, Katerina, Umar)
+
+0.7 (Umar):
+-Input loop for two player (simultaneous keypresses)
+-Handle window close events
+-Player movement function stubs
+
+0.6 (Hassan):
+-Added 5 backgrounds, scaled to 800x600 same as INIT settings
+-Added 5 ships (1 user & 4 enemies) all scaled to 45 pixels width and 85 height
+-Added one fire sprite to be used as ammo coming out of the ships
+-original backgrounds available in separate file incase screen sizes need to be changed
+
+0.5 (Hassan & Katerina):
+-Basic SDL program with ships and background
+-player can move around using up,down,left & right keys
+-press esc to exit
+
+0.4-MERGED (Mike):
+-Moved Katerina's playerinfo struct to entity.h
+-Extra fields inside playerinfo / entity struct
+-Two basic entity types
+-Merged 0.2 and 0.3
+
+0.3 (Mike):
+-More states for the state machine
+-Impulse movement functions
+-Basic example enemy
+
+0.2 (Katerina):
+-Playerinfo struct
+
+0.1 (Mike):
+-Added scaffolding including...
+-Basic state machine
+-Entities
+-Main loop
+-Function stubs
